@@ -1,0 +1,31 @@
+{
+	"name": "admin-main",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"dependencies": {
+		"connected-react-router": "~6.9.1",
+		"localforage": "~1.9.0",
+		"react-router": "~5.2.0",
+		"reselect": "~4.0.0",
+		"yup": "~0.32.9"
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "~5.11.4",
+		"@testing-library/react": "~11.1.0",
+		"@testing-library/user-event": "~12.1.10",
+		"@types/react-router": "~5.1.16",
+		"@types/reselect": "~2.2.0"
+	},
+	"peerDependencies": {
+		"@reduxjs/toolkit": "~1.6.0",
+		"react": "~17.0.2",
+		"react-redux": "~7.2.4",
+		"redux-persist": "~6.0.0"
+	}
+}

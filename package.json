@@ -1,0 +1,22 @@
+{
+	"name": "admin-portal",
+	"private": true,
+	"workspaces": [
+		"packages/apps/admin-web",
+		"packages/libs/admin-common-ui",
+		"packages/libs/admin-main"
+	],
+	"scripts": {
+		"lint": "eslint --fix ./"
+	},
+	"devDependencies": {
+		"@types/jest": "~26.0.15",
+		"@types/node": "~12.20.16",
+		"@typescript-eslint/eslint-plugin": "~4.28.2",
+		"@typescript-eslint/parser": "~4.28.2",
+		"eslint": "~7.30.0",
+		"eslint-config-google": "~0.14.0",
+		"eslint-plugin-react": "~7.24.0",
+		"typescript": "~4.3.5"
+	}
+}

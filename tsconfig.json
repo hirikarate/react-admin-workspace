@@ -1,0 +1,37 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"jsx": "react-jsx",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext"
+		],
+
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"esModuleInterop": true,
+		"rootDir": ".",
+		"skipLibCheck": true,
+		"strict": true,
+		"noImplicitAny": false,
+		"strictNullChecks": false,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch":false,
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"paths": {
+			"@admin/common-ui/*": ["./packages/libs/admin-common-ui/src/*"],
+			"@admin/manage/*": ["./packages/libs/admin-manage/src/*"],
+			"@admin/main/*": ["./packages/libs/admin-main/src/*"],
+			"@admin/report/*": ["./packages/libs/admin-report/src/*"],
+			"@admin/web/*": ["./packages/libs/admin-web/src/*"]
+		}
+	},
+	"include": [
+		"packages"
+	]
+}
